@@ -1,0 +1,34 @@
+
+*{
+
+  margin:0px;
+   border: border-box;
+ 
+}
+  
+  .box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 50%;
+    margin-left: 25%;
+    animation-name: live;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  border: 5px solid;
+ 
+ margin-top: 20px;
+background-color:rgba(152, 202, 187, 0.285);
+  }
+  img{
+    width: 250px;
+    height: 250px;
+  
+  }
+  @keyframes live{ 
+    0%{ border-color: rgba(5, 7, 7, 0.482);}
+    50%{border-color:  rgb(198, 228, 218);}
+    100%{border-color:rgba(224, 91, 91, 0.449); }
+  }
